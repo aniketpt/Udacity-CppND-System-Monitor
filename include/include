@@ -1,0 +1,12 @@
+#include <assert.h>
+#include <string>
+#include <sstream>
+#include <iostream>
+
+#include "/mnt/c/Users/aniket/Desktop/ND/P2/CppND-System-Monitor/linux_parser.h"
+
+// Test
+int main() {
+  long uptime {LinuxParser::UpTime()};
+  std::cout << "Uptime: " << uptime << "\n";
+}
